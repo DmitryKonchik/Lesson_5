@@ -6,6 +6,7 @@ public class Task_1 {
         int[][] arr = new int[5][9];
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
+        System.out.println("Введите число которое необходимо добавить к каждому элементу массива");
         int numberToAdd = scanner.nextInt();
         int sum = 0;
 
